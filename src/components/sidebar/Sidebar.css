@@ -75,6 +75,11 @@
     border-radius: 3px;
 }
 
+.sidebar__link > i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
 .sidebar__logout {
     margin-top: 20px;
     padding: 10px;
@@ -93,19 +98,19 @@
     font-size: 18px;
 }
 
-.sidebar__responsive {
+.sidebar-responsive {
     display: inline !important;
     z-index: 999 !important;
     left: 0 !important;
     position: absolute;
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:978px) {
     #sidebar {
         display: none;
     }
 
-    .sidebar__title {
+    .sidebar__title > i{
         display: inline;
     }
 }
