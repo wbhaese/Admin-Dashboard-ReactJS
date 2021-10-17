@@ -17,7 +17,7 @@ const Main = () => {
                 </div>
 
                 <div className="main__cards">
-                    <div className="card">
+                    <div className="card main__card1">
                         <i className="fa fa-file-text fa-2x text-lightblue"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Número de pedidos</p>
@@ -25,7 +25,7 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card main__card2">
                         <i className="fa fa-money fa-2x text-red"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Pagamentos</p>
@@ -33,7 +33,7 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card main__card3">
                         <i className="fa fa-archive fa-2x text-yellow"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Número de Produtos</p>
@@ -41,7 +41,7 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card main__card4">
                         <i className="fa fa-bars fa-2x text-lightblue"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Categorias</p>

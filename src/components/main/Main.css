@@ -39,6 +39,22 @@ main {
     margin: 20px 0;
 }
 
+.main__card1 {
+    background: #d1edf1;
+}
+
+.main__card2 {
+    background: #fddcdf;
+}
+
+.main__card3 {
+    background: #d2f9ee;
+}
+
+.main__card4 {
+    background: #d0f2f7;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -46,7 +62,6 @@ main {
     height: 70px;
     padding: 25px;
     border-radius: 5px;
-    background-color: #fff;
 
     box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #fff;
 }
